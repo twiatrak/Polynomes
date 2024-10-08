@@ -1,11 +1,11 @@
-# Bibliothèque de fonctions pour la manipulation de polynômes en R
+# Bibliothèque des fonctions pour la manipulation de polynômes en R
 
 # Vérifie si un polynôme est nul (égal à zéro)
 is_poly0 <- function(p) {
   all(p == 0)
 }
 
-# Retourne le degré du polynôme
+# Renvoie le degré du polynôme
 degre <- function(p) {
   length(p) - 1
 }
